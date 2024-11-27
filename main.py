@@ -15,7 +15,7 @@ class SquareTestCase(unittest.TestCase):
         result = area_square_on_the_coordinate_system(0)
         self.assertEqual(result, 0)
 
-    def test_area_of_square_with_negative_numbers(self):
+    def test_area_of_square_with_negative_side(self):
         result = area_square_on_the_coordinate_system(-10)
         self.assertEqual(result, 100)
 
